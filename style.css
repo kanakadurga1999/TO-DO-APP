@@ -1,0 +1,103 @@
+.container-xxl-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(image/to-do-list.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(60, 57, 57, 0.318);
+    backdrop-filter: blur(9px);
+    color: #271f1f;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .wrapper h1{
+    font-family: "yatra one";
+    font-size: 36px;
+    text-align: center;
+  }
+  .wrapper .input-control{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+  }
+  .input-control input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(36, 34, 34);
+    
+    border: 2px solid rgba(48, 42, 42, 0.299);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #1d1b1b;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-control {
+    display: flex;
+    flex-direction: column;
+}
+  .input-control input::placeholder{
+    color: #4a4444;
+  }
+  
+  .wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .remember-forgot label input{
+    accent-color: #272222;
+    margin-right: 3px;
+  
+  }
+  .remember-forgot a{
+    color: #352d2d;
+    text-decoration: none;
+  
+  }
+  .remember-forgot a:hover{
+    text-decoration: underline;
+  }
+  .wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.216);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  
+  .input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+  
+  

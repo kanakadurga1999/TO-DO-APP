@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoapphome</title>
+
+    <link rel="stylesheet" href="list.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Fuggles&family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Nova+Script&family=Yatra+One&display=swap" rel="stylesheet">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+<!-- bootstrap icon cdn -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+</head>
+<body>
+    
+        
+       <div class="container">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="image/logo to do.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-right " >
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="list.html" >To-Do list</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Logout</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+</div>
+
+        <div class="container" id="box"> 
+        <div class="wrapper">
+             <!-- <div class="row">
+                <div class="col-md-9">  -->
+                    <div class="feature-box" id="demo">
+                        
+                     
+
+                         <button onclick="ajax();" class="btn-one"><span></span>TO-DO LIST</button>  
+                        <!-- <button class="btn-two"><span></span>LOGOUT</button> -->
+
+                        <img src="image/logo to do.png" alt="">
+                        
+                         <table id="todoTable">
+                            <thead>
+                                <tr></tr>
+                            </thead>
+                            <tbody id="totoBody"></tbody>
+        
+                        </table>
+
+
+                    </div>
+                </div> 
+
+
+                 <!-- <div class="col-md-3">
+                    <img src="image/to-dolist-templates-header.jpg" alt="" class="feature-image">
+                </div>  -->
+            </div>
+        </div>
+      </div>
+
+
+      
+   </div>
+<script src="list.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+</body>
+</html>
